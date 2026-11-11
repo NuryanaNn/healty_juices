@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description"
+        content="VitaJuice – Jus sehat cold-pressed dari bahan alami segar. Nikmati kesehatan dalam setiap tegukan." />
+    <title>VitaJuice – Jus Sehat Alami</title>
+    <link rel="stylesheet" href="style.css" />
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+
+<body>
+
+    <!-- ===== NAVBAR ===== -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">
+                <div class="logo-icon">🥤</div>
+                <span>VitaJuice</span>
+            </a>
+
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link active">Beranda</a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">Tentang Kami</a>
+                </li>
+                <!-- MENU PRODUK DENGAN SUBMENU -->
+                <li class="nav-item">
+                    <span class="nav-link">Produk <span class="arrow">▾</span></span>
+                    <ul class="dropdown">
+                        <li>
+                            <a href="products.html#minuman" class="dropdown-link">
+                                <div class="d-icon" style="background:#d4f0e0;">🥤</div>
+                                <div>
+                                    <div style="font-weight:700;font-size:.9rem;">Produk Minuman</div>
+                                    <div style="font-size:.78rem;color:#4a6e52;margin-top:2px;">Jus & smoothie segar
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="products.html#makanan" class="dropdown-link">
+                                <div class="d-icon" style="background:#fff3e0;">🥗</div>
+                                <div>
+                                    <div style="font-weight:700;font-size:.9rem;">Produk Makanan</div>
+                                    <div style="font-size:.78rem;color:#4a6e52;margin-top:2px;">Snack & granola sehat
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="products.html#merchandise" class="dropdown-link">
+                                <div class="d-icon" style="background:#ede7f6;">🛍️</div>
+                                <div>
+                                    <div style="font-weight:700;font-size:.9rem;">Merchandise</div>
+                                    <div style="font-size:.78rem;color:#4a6e52;margin-top:2px;">Botol, tas & aksesori
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">Kontak</a>
+                </li>
+                <li class="nav-item">
+                    <a href="products.html" class="nav-link nav-cta">Pesan Sekarang</a>
+                </li>
+            </ul>
+
+            <button class="hamburger" id="hamburger" aria-label="Menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="nav-mobile" id="navMobile">
+        <ul>
+            <li><a href="index.html">Beranda</a></li>
+            <li><a href="about.html">Tentang Kami</a></li>
+            <li>
+                <div class="mobile-parent">Produk <span class="m-arrow">▼</span></div>
+                <ul class="mobile-submenu">
+                    <li><a href="products.html#minuman">🥤 Produk Minuman</a></li>
+                    <li><a href="products.html#makanan">🥗 Produk Makanan</a></li>
+                    <li><a href="products.html#merchandise">🛍️ Merchandise</a></li>
+                </ul>
+            </li>
+            <li><a href="contact.html">Kontak</a></li>
+            <li><a href="products.html">Pesan Sekarang</a></li>
+        </ul>
+    </div>
+
+    <!-- ===== HERO ===== -->
+    <section class="hero" id="hero">
+        <div class="hero-bg">
+            <div class="hero-blob hero-blob-1"></div>
+            <div class="hero-blob hero-blob-2"></div>
+            <div class="hero-blob hero-blob-3"></div>
+        </div>
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-tag">100% Alami & Segar</div>
+                <h1 class="hero-title">
+                    Hidup Lebih Sehat<br>dengan <span class="highlight">Jus Alami</span><br>VitaJuice
+                </h1>
+                <p class="hero-desc">
+                    Nikmati cita rasa jus cold-pressed premium dari bahan-bahan segar pilihan. Penuh nutrisi, bebas
+                    pengawet, dan siap menemani harimu.
+                </p>
+                <div class="hero-btns">
+                    <a href="products.html" class="btn btn-primary">🛒 Belanja Sekarang</a>
+                    <a href="about.html" class="btn btn-outline">Pelajari Lebih</a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <div class="stat-num">50+</div>
+                        <div class="stat-label">Varian Rasa</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-num">10k+</div>
+                        <div class="stat-label">Pelanggan</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-num">100%</div>
+                        <div class="stat-label">Natural</div>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="juice-showcase">
+                    <div class="juice-ring"></div>
+                    <div class="juice-circle jc-main">
+                        <img src="Assets/img/jus2.png" alt="">
+                    </div>
+                    <div class="juice-circle jc-1">
+                        <img src="Assets/img/buah1.png" alt="">
+                    </div>
+                    <div class="juice-circle jc-2">
+                        <img src="Assets/img/jus1.png" alt="">
+                    </div>
+                   
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== FEATURES ===== -->
+    <section class="section section-alt">
+        <div class="container">
+            <div class="text-center">
+                <span class="section-label">Kenapa VitaJuice?</span>
+                <h2 class="section-title">Keunggulan yang <span class="highlight">Membuat Beda</span></h2>
+                <p class="section-subtitle">Kami berkomitmen menghadirkan produk terbaik dengan kualitas terjaga dari
+                    sumber hingga meja makan Anda.</p>
+            </div>
+            <div class="feature-grid">
+                <div class="feature-card fade-up">
+                    <div class="feature-icon">🌿</div>
+                    <h3 class="feature-title">100% Bahan Alami</h3>
+                    <p class="feature-desc">Seluruh bahan dipilih langsung dari kebun organik terpercaya tanpa campuran
+                        bahan kimia berbahaya.</p>
+                </div>
+                <div class="feature-card fade-up fade-up-delay-1">
+                    <div class="feature-icon">❄️</div>
+                    <h3 class="feature-title">Metode Cold-Pressed</h3>
+                    <p class="feature-desc">Proses cold-press menjaga enzim dan nutrisi tetap utuh sehingga manfaat
+                        maksimal sampai ke tubuh Anda.</p>
+                </div>
+                <div class="feature-card fade-up fade-up-delay-2">
+                    <div class="feature-icon">🚫</div>
+                    <h3 class="feature-title">Bebas Pengawet</h3>
+                    <p class="feature-desc">Tidak ada pengawet, pewarna, atau pemanis buatan. Murni dari alam untuk
+                        tubuh yang lebih sehat.</p>
+                </div>
+                <div class="feature-card fade-up fade-up-delay-3">
+                    <div class="feature-icon">🚀</div>
+                    <h3 class="feature-title">Pengiriman Cepat</h3>
+                    <p class="feature-desc">Dikirim dalam kemasan berpendingin untuk menjaga kesegaran produk hingga
+                        tiba di tangan Anda.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== PRODUK UNGGULAN ===== -->
+    <section class="section">
+        <div class="container">
+            <div class="text-center">
+                <span class="section-label">Produk Terlaris</span>
+                <h2 class="section-title">Pilihan <span class="highlight">Favorit</span> Pelanggan</h2>
+                <p class="section-subtitle">Dari jus buah segar hingga smoothie sayuran bergizi – temukan varian yang
+                    paling cocok untukmu.</p>
+            </div>
+            <div class="product-grid">
+                <div class="product-card fade-up">
+                    <div class="product-thumb" style="background: linear-gradient(135deg,#e8f5e9,#c8e6c9);">
+                        <img src="Assets/img/jus1.png" alt="" style="width: 150px; height: 150px;">
+                    </div>
+                    <div class="product-body">
+                        <span class="product-tag">Minuman</span>
+                        <h3 class="product-name">Green Detox Juice</h3>
+                        <p class="product-desc">Paduan bayam, mentimun, apel hijau & jahe segar yang menyegarkan dan
+                            membuang racun tubuh.</p>
+                        <div class="product-bottom">
+                            <span class="product-price">Rp 28.000</span>
+                            <a href="products.html" class="btn btn-green btn-sm">Beli</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card fade-up fade-up-delay-1">
+                    <div class="product-thumb" style="background: linear-gradient(135deg,#fff3e0,#ffe0b2);">
+                        <img src="Assets/img/jus2.png" alt="" style="width: 150px; height: 150px;">
+                    </div>
+                    <div class="product-body">
+                        <span class="product-tag">Minuman</span>
+                        <h3 class="product-name">Tropical Sunrise</h3>
+                        <p class="product-desc">Campuran mangga, jeruk, nanas & wortel – kaya vitamin C untuk imun yang
+                            kuat sepanjang hari.</p>
+                        <div class="product-bottom">
+                            <span class="product-price">Rp 25.000</span>
+                            <a href="products.html" class="btn btn-green btn-sm">Beli</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card fade-up fade-up-delay-2">
+                    <div class="product-thumb" style="background: linear-gradient(135deg,#ede7f6,#d1c4e9);">
+                        <img src="Assets/img/buah1.png" alt="" style="width: 150px; height: 150px;">
+                    </div>
+                    <div class="product-body">
+                        <span class="product-tag">Minuman</span>
+                        <h3 class="product-name">Berry Antioxidant</h3>
+                        <p class="product-desc">Blueberry, stroberi & raspberry tinggi antioksidan untuk menjaga kulit
+                            bercahaya dan awet muda.</p>
+                        <div class="product-bottom">
+                            <span class="product-price">Rp 32.000</span>
+                            <a href="products.html" class="btn btn-green btn-sm">Beli</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div style="text-align:center;margin-top:2.5rem;">
+                <a href="products.html" class="btn btn-green">Lihat Semua Produk →</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== TESTIMONIALS ===== -->
+    <section class="section section-dark">
+        <div class="container">
+            <div class="text-center">
+                <span class="section-label section-label-white">Ulasan Pelanggan</span>
+                <h2 class="section-title" style="color:#fff;">Apa Kata <span class="highlight">Mereka?</span></h2>
+                <p class="section-subtitle section-subtitle-white">Ribuan pelanggan sudah merasakan manfaat luar biasa
+                    dari produk VitaJuice.</p>
+            </div>
+            <div class="testimonial-grid">
+                <div class="testimonial-card fade-up">
+                    <div class="stars">★★★★★</div>
+                    <p class="testimonial-text">"Green Detox Juice-nya luar biasa! Kulit saya jadi lebih cerah dan badan
+                        terasa lebih ringan setelah rutin minum 2 minggu. Pasti beli lagi!"</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">👩</div>
+                        <div>
+                            <div class="author-name">Rina Hartati</div>
+                            <div class="author-role">Pelanggan Setia, Jakarta</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card fade-up fade-up-delay-1">
+                    <div class="stars">★★★★★</div>
+                    <p class="testimonial-text">"Pengiriman super cepat dan produk masih sangat segar. Berry Antioxidant
+                        jadi favorit keluarga saya. Recommended banget!"</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">👨</div>
+                        <div>
+                            <div class="author-name">Budi Santoso</div>
+                            <div class="author-role">Pelanggan, Bandung</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card fade-up fade-up-delay-2">
+                    <div class="stars">★★★★★</div>
+                    <p class="testimonial-text">"Tropical Sunrise-nya enak banget, anak-anak suka! Seneng banget ada
+                        minuman sehat yang rasanya gak kalah sama jus biasa."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">👩‍👧</div>
+                        <div>
+                            <div class="author-name">Siti Marlina</div>
+                            <div class="author-role">Ibu Rumah Tangga, Surabaya</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== CTA ===== -->
+    <section class="cta-section">
+        <div style="position:relative;z-index:1;">
+            <h2 class="cta-title">Mulai Hidup Sehat Hari Ini!</h2>
+            <p class="cta-desc">Dapatkan diskon 20% untuk pembelian pertama Anda. Gunakan kode <strong>VITA20</strong>
+                saat checkout.</p>
+            <a href="contact.html" class="btn btn-white">Hubungi Kami Sekarang</a>
+        </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer">
+        <div class="footer-grid">
+            <div>
+                <div class="footer-logo">
+                    <div class="logo-icon">🥤</div>
+                    VitaJuice
+                </div>
+                <p class="footer-desc">Kami hadir untuk membantu Anda menjalani gaya hidup lebih sehat dengan produk jus
+                    alami berkualitas tinggi.</p>
+                <div class="social-links">
+                    <a href="#" class="social-link" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="social-link" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+                    <a href="#" class="social-link" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                    <a href="#" class="social-link" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+            <div>
+                <h4 class="footer-col-title">Navigasi</h4>
+                <ul class="footer-links">
+                    <li><a href="index.html">Beranda</a></li>
+                    <li><a href="about.html">Tentang Kami</a></li>
+                    <li><a href="products.html">Produk</a></li>
+                    <li><a href="contact.html">Kontak</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="footer-col-title">Produk</h4>
+                <ul class="footer-links">
+                    <li><a href="products.html#minuman">Produk Minuman</a></li>
+                    <li><a href="products.html#makanan">Produk Makanan</a></li>
+                    <li><a href="products.html#merchandise">Merchandise</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="footer-col-title">Kontak Kami</h4>
+                <div class="footer-contact-info">
+                    <div class="contact-info-item"><i class="fas fa-map-marker"></i><span>Jl. Sehat No. 12, Jakarta Selatan</span></div>
+                    <div class="contact-info-item"><i class="fas fa-phone"></i><span>+62 812-3456-7890</span></div>
+                    <div class="contact-info-item"><i class="fas fa-envelope"></i><span>hello@vitajuice.id</span></div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2024 VitaJuice. All rights reserved.</p>
+            <div class="footer-bottom-links">
+                <a href="#">Kebijakan Privasi</a>
+                <a href="#">Syarat & Ketentuan</a>
+            </div>
+        </div>
+    </footer>
+
+    <button class="scroll-top" aria-label="Kembali ke atas">↑</button>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
